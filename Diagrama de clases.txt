@@ -1,0 +1,73 @@
+componente
+int 	codigo 
+float 	flujo masico
+	presion entrada
+	diametro entrada
+	diametro salida
+	rugosidad
+	presion salida
+	
+
+curva
+
+
+cañeria
+float	altura
+	longitud
+
+vistaComponente
+
+int	posx1
+	posx2
+	posy1
+	posy2
+	tipo
+	ancho
+	alto
+	capa
+imageIcon Imagen
+escucharclick();
+
+vistaCañeria
+
+cañeria caño
+insertarImagen();
+
+
+vistaCañeria
+
+Curva curva
+insertarImagen();
+
+
+ControladorVistas
+
+alcenvistas
+
+crearcomponente();
+crearcañeria();
+crearurva();
+cañoInicial();
+DevolverCapa();
+
+
+Almacen
+
+agregarvista();
+obtenerultimavista();
+borrarltimaVista();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

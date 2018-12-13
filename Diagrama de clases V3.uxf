@@ -1,0 +1,143 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1659</x><y>260</y><w>100</w><h>70</h></coordinates><panel_attributes>_Ventana_
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1529</x><y>560</y><w>120</w><h>140</h></coordinates><panel_attributes>_Proyecto_
+--
+
+--
+agregarvista()
+obtenerultimavista()
+borrarltimaVista()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1185</x><y>379</y><w>130</w><h>110</h></coordinates><panel_attributes>_Tanque_
+--
+presiónTanqueAbs
+presiónTanqueRel
+asnm
+presiónAtmosférica
+tipoDescarga
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1025</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_Bomba_
+--
+potencia
+rendimiento
+npsh
+presiónImpulsión
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>625</x><y>530</y><w>130</w><h>110</h></coordinates><panel_attributes>_ExpansionReduccion_
+--
+angulo
+tipo
+
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>705</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_Expansion_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>545</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_Reduccion_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>530</y><w>130</w><h>110</h></coordinates><panel_attributes>_Valvula_
+--
+diámetroObturadorD1
+diámetroTuberíaD2
+anguloT
+ratioBeta
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>385</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_ValvulaGate_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>65</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_ValvulaMariposa_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_ValvulaEsferica_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>867</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_Equipo_
+--
+perdidaCarga
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1505</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_Cañeria_
+--
+float	altura
+float	longitud
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1345</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_Curva_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1345</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaCañeria_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1505</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaCurva_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1185</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaTanque_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1025</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaBomba_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>705</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaExpansion_
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>545</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaReduccion_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>385</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaValvulaGate_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaValvulaEsferica_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>65</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaValvulaMariposa_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>865</x><y>230</y><w>130</w><h>110</h></coordinates><panel_attributes>_VistaEquipo_
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>55</x><y>540</y><w>130</w><h>150</h></coordinates><panel_attributes>_Componente_
+--
+int 	codigo 
+float 	flujoMasico
+float	presionEntrada
+float	diametroEntrada
+float	diametroSalida
+float	rugosidad
+float	presionSalida
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>65</x><y>0</y><w>130</w><h>200</h></coordinates><panel_attributes>_VistaComponente_
+--
+int	posx1
+int	posx2
+int	posy1
+int	posy2
+int	tipo
+int	ancho
+int	alto
+int	capa
+imageIcon Imagen
+--
+escucharclick()
+insertarImagen()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>925</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>125</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>275</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>435</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1065</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1225</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>755</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>595</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1555</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1395</x><y>330</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>285</x><y>480</y><w>180</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;30;160;30;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>125</x><y>480</y><w>190</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>170;50;170;30;10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>285</x><y>480</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>675</x><y>480</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;30;90;30;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>595</x><y>480</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;50;90;30;10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>480</y><w>1420</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;170;750;170;750;50;1400;50;1400;10</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>480</y><w>1260</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;170;750;170;750;50;1240;50;1240;10</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>480</y><w>1090</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;170;750;170;750;50;1070;50;1070;10</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>480</y><w>930</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;170;750;170;750;50;910;50;910;10</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>630</y><w>530</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;20;510;20;510;10</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>630</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;20;110;20;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>480</y><w>770</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;170;750;170;750;10</additional_attributes></element><element><id>Relation</id><coordinates><x>115</x><y>190</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>130</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>110;80;110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>280</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>260;80;260;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>450</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>430;80;430;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>610</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>590;80;590;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>770</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>750;80;750;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>930</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>910;80;910;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>1090</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>1070;80;1070;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>1250</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>1230;80;1230;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>150</y><w>1410</w><h>100</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>1390;80;1390;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1665</x><y>380</y><w>130</w><h>110</h></coordinates><panel_attributes>_Controlador_
+--
+
+--
+crearCañeria()
+crearCurva()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1505</x><y>20</y><w>130</w><h>110</h></coordinates><panel_attributes>_ManejadorVistas_
+--
+
+--
+crearCañeria()
+crearCurva()
+cañoInicial()
+DevolverCapa()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>90</y><w>1340</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+*                                                                                               1</panel_attributes><additional_attributes>1320;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>660</y><w>1370</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+*                                                 1</panel_attributes><additional_attributes>1350;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1625</x><y>90</y><w>130</w><h>190</h></coordinates><panel_attributes>lt=&lt;-
+1    1</panel_attributes><additional_attributes>90;170;90;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1645</x><y>480</y><w>100</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+1    1</panel_attributes><additional_attributes>60;10;60;120;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>1705</x><y>320</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>

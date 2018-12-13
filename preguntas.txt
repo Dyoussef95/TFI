@@ -1,0 +1,11 @@
+para calcular la presion de necesito la presion de salida del componente anterior.
+¿para solicitar esta presion de salida, lo buscare de la coleccion de componentes o 
+agrego el componente anterior como atributo?
+
+en girarcodo, para comprobar si el ultimo componente es un codo, hago [ultComp.getCodigo=='codo'] o primero le pido el codigo y despues pregunto?
+
+como hacer la modificacion de atributos en el diagrama de colaboracion?
+hacer la modificacion uno por uno? o modificamos todos al mismo tiempo con un boton guardar y pasa todos los atributos como parametros?
+
+
+

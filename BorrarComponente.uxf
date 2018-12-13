@@ -1,0 +1,8 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>290</x><y>344</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Controlador_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>344</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=-
+borrarComponente()</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>194</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Proyecto_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>224</y><w>150</w><h>140</h></coordinates><panel_attributes>lt=-
+1:borrarComponente()
+</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>174</y><w>200</w><h>70</h></coordinates><panel_attributes>lt=-
+group=1</panel_attributes><additional_attributes>10;20;10;10;180;10;180;50;170;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>194</y><w>180</w><h>40</h></coordinates><panel_attributes>_:Componente_
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>184</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=-
+1.1:borrarUltimo()
+</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element></diagram>

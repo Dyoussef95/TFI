@@ -1,0 +1,13 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>320</x><y>404</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Controlador_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>404</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=-
+caño:=crearComponente(codigo)</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>254</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Proyecto_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>284</y><w>220</w><h>140</h></coordinates><panel_attributes>lt=-
+1:caño:=crearComponente(codigo)
+</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>234</y><w>200</w><h>70</h></coordinates><panel_attributes>lt=-
+group=1</panel_attributes><additional_attributes>10;20;10;10;180;10;180;50;170;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>254</y><w>180</w><h>40</h></coordinates><panel_attributes>_:Componente_
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>244</y><w>240</w><h>60</h></coordinates><panel_attributes>lt=-
+1.1:ultComp:=obtenerUltimo()
+1.4:agregar(caño);
+</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>404</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;new&gt;&gt;
+_caño:Cañeria_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>274</y><w>370</w><h>170</h></coordinates><panel_attributes>lt=-
+1.3:caño:=crear(orientacion)</panel_attributes><additional_attributes>10;10;200;10;200;150;230;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>114</y><w>150</w><h>40</h></coordinates><panel_attributes>_ultComp:Componente_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>144</y><w>210</w><h>130</h></coordinates><panel_attributes>lt=-
+1.2:orientacion:=getOrientacion()
+</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
