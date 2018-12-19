@@ -1,11 +1,17 @@
-<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>320</x><y>404</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Controlador_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>404</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-
-girarCodo()</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>254</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Proyecto_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>284</y><w>220</w><h>140</h></coordinates><panel_attributes>lt=-
-1:caño:=crearComponente(codigo)
-</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>234</y><w>200</w><h>70</h></coordinates><panel_attributes>lt=-
-group=1</panel_attributes><additional_attributes>10;20;10;10;180;10;180;50;170;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>254</y><w>180</w><h>40</h></coordinates><panel_attributes>_:Componente_
-group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>244</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=-
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>300</x><y>404</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Controlador_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>404</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-
+girarCodo()</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>254</y><w>100</w><h>40</h></coordinates><panel_attributes>_:Proyecto_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>284</y><w>100</w><h>140</h></coordinates><panel_attributes>lt=-
+1:girarCodo()
+</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>234</y><w>200</w><h>70</h></coordinates><panel_attributes>lt=-
+group=1</panel_attributes><additional_attributes>10;20;10;10;180;10;180;50;170;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>254</y><w>180</w><h>40</h></coordinates><panel_attributes>_:Componente_
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>244</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=-
 1.1:ultComp:=obtenerUltimo()
-</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>114</y><w>150</w><h>40</h></coordinates><panel_attributes>_ultComp:Componente_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>144</y><w>180</w><h>130</h></coordinates><panel_attributes>lt=-
-1.2:codigo:=getCodigo()
-1.3:[codigo=='codo']:=girar();
-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>114</y><w>150</w><h>40</h></coordinates><panel_attributes>_ultComp:Componente_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>144</y><w>110</w><h>130</h></coordinates><panel_attributes>lt=-
+1.2:girarCodo()
+
+</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>540</x><y>70</y><w>140</w><h>90</h></coordinates><panel_attributes>
+Solo ocurre si ultComp
+es objeto Codo.
+Cambia el valor del
+atributo oriSalida.
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>150</y><w>160</w><h>60</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;40;140;10</additional_attributes></element></diagram>
